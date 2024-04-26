@@ -55,6 +55,15 @@ header {
     font-weight: 400;
 }
 
+.navbar-collapse {
+    background-color: rgb(255, 255, 255, 1);
+    padding: 10px;
+}
+
+.navbar-nav {
+    margin-bottom: 15px;
+}
+
 .main-menu ul li {
     list-style-type: none;
     float: left;
