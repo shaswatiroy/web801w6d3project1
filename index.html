@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body id="home">
     <!-- Container -->
-    <div class="container">
+    <div id="container">
         <!-- Header -->
-        <header class="row">
+        <header>
             <!-- Main Header -->
-            <div class="col-12">
+            <div class="main-header">
                <!-- Main Menu -->
                <nav class="navbar navbar-expand-md navbar-light sticky-top">
-                    <div class="navbar-brand">
-                        <img src="images/logo.jpg" alt="Splashes Logo" class="img-fluid" width="125">
+                    <div class="logo">
+                        <img src="images/logo.jpg" alt="Splashes Logo" width="125">
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -52,36 +52,36 @@
         </header>
 
         <!-- Main Content Area -->
-        <main class="row">
-            <div class="col-12">
-                <!-- Headings and Paragraphs -->
-                <h2>Welcome to Splashes</h2>
-                <p>We offer fun and effective swimming lessons for children.</p>
-                <p>At Splashes, we believe that every child should have the opportunity to learn how to swim in a safe, fun, and supportive environment. Our experienced instructors are dedicated to teaching essential water safety skills and helping children develop confidence in the water.</p>
-                <br/>
-                <h2>Why Choose Splashes?</h2>
+        <main>
+            <!-- Headings and Paragraphs -->
+            <h2>Welcome to Splashes</h1><br/>
+            <p>We offer fun and effective swimming lessons for children.</p>
+            <p>At Splashes, we believe that every child should have the opportunity to learn how to swim in a safe, fun, and supportive environment. Our experienced instructors are dedicated to teaching essential water safety skills and helping children develop confidence in the water.</p>
+            <br/>
+            <h2>Why Choose Splashes?</h2>
+            <p>
                 <ul>
                     <li>Expert Instructors: Our certified instructors have years of experience teaching children of all ages and skill levels.</li>
                     <li>Small Class Sizes: We maintain small class sizes to ensure personalized attention and effective learning.</li>
                     <li>Flexible Scheduling: We offer flexible scheduling options to accommodate busy families.</li>
                     <li>Safe and Fun Environment: We prioritize safety while making learning to swim a fun and enjoyable experience for children.</li>
                 </ul>
-            </div>
+            </p>
+
         </main>
 
         <!-- Footer -->
-        <footer class="row">
-            <div class="col-12">
-                <!-- Disclaimer Divs -->
-                <div id="nondisclaimer" class="copy">&copy; Copyright 2024 :: Splashes.com</div>
+        <footer>
+            <!-- Disclaimer Divs -->
+            <div id="nondisclaimer">
+                <div class="copy">&copy; Copyright 2024 :: Splashes.com</div>
                 <div class="social">
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-instagram"></a>
                     <a href="#" class="fa fa-twitter"></a>
                 </div>
-                <div id="disclaimer">
-                    <p>This website is designed and created solely for educational purposes only at Westcliff University. All contents are not intended for any commercial gain or use.</p>
-                </div>
+            <div id="disclaimer">
+                <p>This website is designed and created solely for educational purposes only at Westcliff University. All contents are not intended for any commercial gain or use.</p>
             </div>
         </footer>
     </div>
